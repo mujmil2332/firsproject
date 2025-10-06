@@ -13,14 +13,14 @@ import reportWebVitals from './reportWebVitals';
 //import Counter from './Counter';
 //import LocationDisplay from './LocationDisplay';
 import { BrowserRouter } from 'react-router-dom';
-import BlogPost from './BlogPost';
-import ControlForm from './Controlform';
-import UnControlFrom from './UnControlForm';
-import RegistrationForm from './RegistrationForm';
-import RegisterForm from './RegisterForm';
-import Parent from './Parent';
-import ParentComponent from './ParentComponent';
-import TestCatch from './TestCatch';
+
+//import ControlForm from './Controlform';
+//import UnControlFrom from './UnControlForm';
+//import RegistrationForm from './RegistrationForm';
+//import RegisterForm from './RegisterForm';
+//import Parent from './Parent';
+//import ParentComponent from './ParentComponent';
+//import TestCatch from './TestCatch';
 import BMICalculator from './BMICalculator';
 
 
@@ -33,16 +33,15 @@ root.render(
   <React.StrictMode>
 
   <BrowserRouter>
-    <BlogPost />
     
     </ BrowserRouter>
-    <ControlForm />
+   { /*<ControlForm />
     <UnControlFrom />
     <RegistrationForm />
     <RegisterForm />
     <Parent />
     <ParentComponent />
-    <TestCatch />
+    <TestCatch />*/}
     <BMICalculator />
 
     
